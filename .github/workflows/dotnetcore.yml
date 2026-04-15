@@ -1,4 +1,4 @@
-name: .NET-Code-Check
+name: eShopOnWeb -.NET-Code-Check
 
 #Triggers (uncomment line below to use it)
 #on: [push, pull_request, workflow_dispatch]
