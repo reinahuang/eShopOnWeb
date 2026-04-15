@@ -3,8 +3,8 @@ name: .NET-Code-Check
 #Triggers (uncomment line below to use it)
 #on: [push, pull_request, workflow_dispatch]
 on:
-  pull_request:
-    types: [labeled]
+  workflow_dispatch:
+
     
 jobs:
   build:
