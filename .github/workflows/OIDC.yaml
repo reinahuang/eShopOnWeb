@@ -74,7 +74,7 @@ jobs:
 
       #Login in your azure subscription using a service principal (credentials stored as GitHub Secret in repo)
       - name: Azure Login
-        uses: azure/login@v2
+        uses: azure/login@v1
         with:
           client-id: 21b54d12-82f9-406e-b8dd-bdeebfdc6679
           tenant-id: f46bafea-459a-431f-8ad1-b82e00493fb7
