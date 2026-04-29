@@ -79,6 +79,8 @@ jobs:
           client-id: 21b54d12-82f9-406e-b8dd-bdeebfdc6679
           tenant-id: f46bafea-459a-431f-8ad1-b82e00493fb7
           subscription-id: 3367f2c7-df41-4d7a-b327-df7ab308d8ce
+          # 显式告诉它我们用的是 OIDC
+          auth-type: 'SERVICE_PRINCIPAL'
 
       # Deploy Azure WebApp using Bicep file
       - name: deploy
